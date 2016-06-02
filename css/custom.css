@@ -1,0 +1,65 @@
+/* Static image */
+#intro.bg-image .container-fluid {
+  background-image: url('../img/gallery/israel/DSC_1058_1.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 
+}
+
+
+#intro .gallery-title {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 50px;
+}
+#intro.data-image {
+  display: block;
+  margin-left: 30px;
+  padding: 30px 30px 30px 30px;
+}
+
+/* Rain background */
+#intro.bg-rain .container-fluid {
+  background-image: url('../img/landing/black.jpg');
+  background-size: cover;
+}
+
+/* Snow background */
+#intro .bg-snow {
+  background-image: url('../img/portfolio/DSC_1184.jpg');
+  background-size: cover;
+}
+
+/* Static color */
+#intro.color .container-fluid {
+  background: #5D815B;
+}
+
+/* Introduction background */
+#rado .half.bg {
+  background-image: url('../img/gallery/colorado/DSC_1205_1_1.jpg');
+  background-size: cover;
+}
+#israel .half.bg {
+  background-image: url('../img/gallery/israel/DSC_1033_1.jpg');
+  background-size: cover;
+}
+
+/* Services background */
+#services .half.bg {
+  background-image: url('../img/portfolio/portfolio.jpg');
+  background-size: cover;
+}
+
+
+/* Portfolio background */
+#portfolio .half.bg {
+  background-image: url('../img/portfolio/DSC_0540.jpg');
+  background-size: cover;
+}
+
+/* About background */
+#about .half.bg {
+  background-image: url('../img/unsplash/4.jpg');
+  background-size: cover;
+}

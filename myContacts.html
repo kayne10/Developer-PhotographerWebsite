@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Rad Contacts</title>
+    </head>
+    <body>
+<?php
+    $sql_connection = mysql_connect("troykaynedesignandphoto.com", "troykayne1", "Zan!3qPr7");
+ 
+    mysql_select_db("contacting", $sql_connection);
+ 
+    $result = mysql_query("SELECT * FROM communication");
+ 
+    echo "<table>";
+    echo "<tr><td>Subject</td><td>Name</td><td>Email</td><tr><td>Message</td><td>Created On</td></tr>";
+ 
+    while ($row = mysql_fetch_array($result)) {
+        echo "<tr>";
+        echo "<td>" . $row["subject"] . "</td>";
+        echo "<td>" . $row["name"] . "</td>";
+        echo "<td>" . $row["email"] . ";</td>";
+        echo "<td>" . $row["message"] . ";</td>";
+        echo "<td>" . $row["ContactDateCreated"] . "</td>";
+        echo "</tr>";
+    }
+ 
+    echo "</table";
+ 
+    mysql_close($sql_connection);
+?>
+    </body>
+</html>

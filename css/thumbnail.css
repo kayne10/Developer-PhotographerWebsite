@@ -1,0 +1,37 @@
+body {
+	margin: 0 0 200px;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+a,
+.galleryThumbnails img {
+	transition: all 150ms linear;
+	-webkit-transition: all 150ms linear;
+	-moz-transition: all 150ms linear;
+}
+
+.galleryContainer {
+	margin: 40px auto;
+	width: 900px;
+}
+
+.galleryPreviewContainer {
+	position: relative;
+}
+
+.galleryPreviewImage img {
+	display: none;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	box-shadow: 5px 5px 0 0 #c1c1c1;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.previewImage1 {
+	display: block;
+}
