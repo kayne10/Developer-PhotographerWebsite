@@ -47,7 +47,7 @@
 
 /* Services background */
 #services .half.bg {
-  background-image: url('../img/portfolio/portfolio.jpg');
+  background-image: url('../img/about/binary_by_robote.jpg');
   background-size: cover;
 }
 
@@ -60,6 +60,6 @@
 
 /* About background */
 #about .half.bg {
-  background-image: url('../img/unsplash/4.jpg');
+  background-image: url('../img/portfolio/portfolio.jpg');
   background-size: cover;
 }
